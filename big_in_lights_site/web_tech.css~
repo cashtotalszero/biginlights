@@ -1,0 +1,390 @@
+
+/* The window as a whole. */
+
+html, body { 
+	padding:2px 0 0 0; 
+	margin:0; 
+}
+
+/* Fluid page size (750px-1680px) */ 
+
+body { 
+	background:black;
+	color: white;
+	font-family:'Arial Narrow', 'Nimbus Sans L', sans-serif;
+	font-size: 25px; 
+	min-width: 750px; 
+	max-width: 1680px;
+}
+
+/* Settings for navigation bar */
+
+nav ul ul {
+	display: none;
+	z-index: 2;
+}
+	
+nav ul {
+	background: black;
+	padding: 0 20px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+		
+nav ul li {
+	float: left;
+}
+
+nav ul li:active {
+	background: black;
+	position: relative;
+	top: 2px;  
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
+}
+
+hr {
+	margin: 0 0 0 0;
+}
+
+/* Links */
+
+a:link {
+	background-color: transparent ;
+	text-decoration: none ;
+}
+
+a:hover {
+	text-decoration: underline ;
+}
+
+/* Headers */
+
+h1.home{
+	margin: 25px 0 5px 0;
+}
+
+h1.contact {
+	margin: 20px 0 20px 0;
+	text-align: center;
+}
+
+/* Divs shared by all pages */
+
+div.header, div.footer
+{
+	padding:0; 
+	margin:0;
+	width:100%;
+	background-color:black;
+}
+
+div.header { 
+	height:50px; 
+}
+
+div.footer { 
+	clear:both; 
+	text-align:right;
+	font-size: 15px;
+}
+
+/* Home page */
+
+div.home {
+	margin: 0 5px 0 5px;
+}
+
+div.homeslides { 
+	width: 60%; 
+	height: 500px; 
+	text-align: justify; 
+	float: left; 
+	margin: 0 20% 2% 20%; 
+}
+
+/* Gallery page */
+
+div.content { 
+	width:96%; 
+	text-align:justify; 
+	float:right; 
+	margin: 2% 2% 2% 2%;
+	z-index: 1;
+}
+
+/* Blog page */
+
+div.blog{
+	margin: 10px 0 10px 0;
+	padding: 2px;
+	background-color: #222222;
+	border-top: 3px solid #6b727c;
+	border-bottom: 3px solid #6b727c;
+	border-left: 3px solid #6b727c;
+	border-right: 3px solid #6b727c;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+div.blog:hover{
+	text-decoration: underline;
+	background-color: #333333;
+}
+
+div.swirlyleft {
+	width:15%;
+	float:left;
+	margin: 0 0 0 0;
+}
+
+div.blogouter {
+	width:85%;
+	float:right;
+	margin: 0 0 0 0;
+}
+
+div.bloginner {
+	width:82.4%;
+	float:left;
+	margin: 0 0 0 0;
+}
+
+div.swirlyright {
+	width:17.6%;
+	float:right;
+	margin: 0 0 0 0;
+}
+
+/* The contact page */
+
+div.contact { 
+	width:96%;
+	height: 755px;
+	text-align:justify; 
+	float:right; 
+	margin: 0 2% 2% 2%;
+	z-index: 1;
+}
+
+div.telephone {
+	height:0px;
+	clear:both;
+	text-align:left;
+	z-index:3;
+}
+
+/* Report page */
+
+div.report {
+	margin: 0 5px 0 5px;
+}
+
+/* Image & text properties */
+
+img.facebook {
+	position: relative;
+	top: 0px;
+}
+
+img.swirly, img.red_swirly {
+	z-index:-1;
+}
+
+img.red_swirly {
+	display: none;
+}
+
+img.swirlyleft {
+	position: relative;
+	left: -13%;
+	z-index:-1;
+}
+
+img.telephone {
+	position: relative;
+	bottom: 160px;
+	left: -25.6px;
+	z-index:3;
+}
+
+img.central {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.inspire {
+	float: right;
+	margin: 10px 10px 10px 10px;
+}
+
+.centre { 
+	text-align:center;	
+}
+
+.link { 
+	color: white;
+	font-weight: bold;
+}
+
+.persuade { 
+	font-size: 35px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.reportHeader {
+	font-size: 35px;
+	font-weight: bold;
+	text-decoration: underline;
+	text-align:center;
+}
+
+.timelapse {
+	text-align: center;
+	font-size: 15px;
+}
+
+/* Image slideshow on home page */
+
+.fadein { 
+	position:relative; 
+	height:332px; 
+	width:500px; 
+}
+.fadein img { 
+	position:absolute; 
+}
+
+/* Accordion on blog page */
+
+.toggler { 
+	width: 500px; 
+	height: 200px; 
+	position: relative; 
+}
+
+#button { 
+	padding: .5em 1em; 
+	text-decoration: none; 
+}
+
+#effect { 
+	width: 240px; 
+	height: 135px; 
+	padding: 0.4em; 
+	position: relative; 
+	background: #fff; 
+}
+
+/* Image slider on blog page */
+
+ul#accordion-slider{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	z-index:5;
+}
+
+ul#accordion-slider li{
+	display: block;
+	overflow: hidden;
+	padding: 0;
+	float: left;
+	width: 200px;
+	height: 300px;
+}
+
+/* Contact form setup */
+
+ul { 
+	list-style: none; 
+}
+
+form {
+	width:300px;
+	margin: 20px auto;
+	position: relative;
+	left: -50px;
+}
+
+input {
+	font-size:15px;
+	width:300px;
+	min-height:30px;
+}
+
+form textarea {
+	font-size:15px;
+	width: 350px;
+	height: 100px;
+}
+
+#form-wrapper {
+	width: 500px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 0px;    
+	position: relative;
+	border: 1px solid #ddd;
+	background-color: #222222;
+}    
+
+/* Button settings taken from 
+
+http://www.red-team-design.com/html5-css3-envelope-contact-form 
+
+Modified slightly to suit site design */
+
+#form-wrapper .button
+{
+	margin: 10px 0 0 0;
+	padding: 7px 15px;  
+	color: #fff;
+	font: bold 13px Tahoma, Verdana, Arial;
+	text-transform: uppercase;
+	overflow: visible; /* IE6/7 fix */
+    	border: 0;  
+    	background-color: #7089b3;
+    	background-image: -moz-linear-gradient(#a5b8da, #7089b3);
+    	background-image: -webkit-gradient(linear, left top, left bottom, from(#a5b8da), to(#7089b3));    
+    	background-image: -webkit-linear-gradient(#a5b8da, #7089b3);
+    	background-image: -o-linear-gradient(#a5b8da, #7089b3);
+    	background-image: -ms-linear-gradient(#a5b8da, #7089b3);
+    	background-image: linear-gradient(#a5b8da, #7089b3); 
+    	-moz-border-radius: 3px;
+    	-webkit-border-radius: 3px;
+    	border-radius: 3px;
+    	text-shadow: 0 1px 0 rgba(0,0,0,.3);   
+    	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
+    	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
+    	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
+}
+
+#form-wrapper .button:hover
+{
+	background-color: #a5b8da;
+	background-image: -moz-linear-gradient(#7089b3, #a5b8da);
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#7089b3), to(#a5b8da));      
+	background-image: -webkit-linear-gradient(#7089b3, #a5b8da);
+	background-image: -o-linear-gradient(#7089b3, #a5b8da);
+	background-image: -ms-linear-gradient(#7089b3, #a5b8da);
+	background-image: linear-gradient(#7089b3, #a5b8da); 
+}
+
+#form-wrapper .button:active
+{
+	background: #64799e;
+	position: relative;
+	top: 2px;  
+	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
+}
+
