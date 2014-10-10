@@ -121,7 +121,7 @@
 	
 	<div class="footer">
 		<hr/>
-		<p class="centre"/>
+		<p/>
 		<a href="https://www.facebook.com/BiginLights">
 			<img src="./facebook.gif" height="40px" alt="facebook link"/>
 		</a>
@@ -135,7 +135,7 @@
 			<img src="./instagram.gif" height="40px" alt="instagram link"/>
 		</a>
 		
-		<p class="centre">Site design by <a href="https://twitter.com/cashtotalszero">
+		<p>Site design by <a href="https://twitter.com/cashtotalszero">
 		<img src="./ctzlogo.jpg" height="20"alt="cashtotalzero link"/></a></p>
 	</div>
 </body>
