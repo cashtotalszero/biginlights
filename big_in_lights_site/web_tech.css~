@@ -11,7 +11,9 @@ html, body {
 body { 
 	background:black;
 	color: white;
-	font-family:'Arial Narrow', 'Nimbus Sans L', sans-serif;
+	/*font-family:'Arial Narrow', 'Nimbus Sans L', sans-serif;*/
+	/*font-family:'Tahoma', 'Geneva', sans-serif;*/
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif
 	font-size: 25px; 
 	min-width: 750px; 
 	max-width: 1680px;

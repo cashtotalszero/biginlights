@@ -138,6 +138,10 @@ div.blog:hover{
 	background-color: #333333;
 }
 
+div.bigRig {
+	margin: 0 40% 0 35%;
+}
+
 div.swirlyleft {
 	width:15%;
 	float:left;
