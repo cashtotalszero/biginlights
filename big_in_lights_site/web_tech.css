@@ -1,21 +1,24 @@
 
 /* The window as a whole. */
 
-html, body { 
-	padding:2px 0 0 0; 
-	margin:0; 
+html, body {
+	padding:2px 0 0 0;
+	margin:0;
 }
 
-/* Fluid page size (750px-1680px) */ 
+/* Fluid page size (750px-1680px) */
 
-body { 
+body {
 	background:black;
+	 /*background-image: url('./background.png');*/
+    /*background-color: #cccccc;*/
 	color: white;
 	/*font-family:'Arial Narrow', 'Nimbus Sans L', sans-serif;*/
 	/*font-family:'Tahoma', 'Geneva', sans-serif;*/
-	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif
-	font-size: 25px; 
-	min-width: 750px; 
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	/*font-family: 'Arial', 'Helvetica', sans-serif;*/
+	font-size: 25px;
+	min-width: 750px;
 	max-width: 1680px;
 }
 
@@ -25,7 +28,7 @@ nav ul ul {
 	display: none;
 	z-index: 2;
 }
-	
+
 nav ul {
 	background: black;
 	padding: 0 20px;
@@ -33,7 +36,7 @@ nav ul {
 	position: relative;
 	display: inline-table;
 }
-		
+
 nav ul li {
 	float: left;
 }
@@ -41,10 +44,10 @@ nav ul li {
 nav ul li:active {
 	background: black;
 	position: relative;
-	top: 2px;  
+	top: 2px;
 	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
 	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
-	box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
 }
 
 hr {
@@ -77,18 +80,18 @@ h1.contact {
 
 div.header, div.footer
 {
-	padding:0; 
+	padding:0;
 	margin:0;
 	width:100%;
 	background-color:black;
 }
 
-div.header { 
-	height:50px; 
+div.header {
+	height:50px;
 }
 
-div.footer { 
-	clear:both; 
+div.footer {
+	clear:both;
 	text-align:right;
 	font-size: 15px;
 }
@@ -99,20 +102,20 @@ div.home {
 	margin: 0 5px 0 5px;
 }
 
-div.homeslides { 
-	width: 40%; 
-	height: 500px; 
-	text-align: center; 
-	float: left; 
-	margin: 0 30% 2% 30%; 
+div.homeslides {
+	width: 40%;
+	height: 500px;
+	text-align: center;
+	float: left;
+	margin: 0 30% 2% 30%;
 }
 
 /* Gallery page */
 
-div.content { 
-	width:96%; 
-	text-align:justify; 
-	float:right; 
+div.content {
+	width:96%;
+	text-align:justify;
+	float:right;
 	margin: 2% 2% 2% 2%;
 	z-index: 1;
 }
@@ -128,9 +131,9 @@ div.blog{
 	border-left: 3px solid #6b727c;
 	border-right: 3px solid #6b727c;
 	text-align: center;
-	text-transform: uppercase;
-	font-size: 40px;
-	font-weight: bold;
+	text-transform: none;
+	font-size: 30px;
+	font-weight: normal;
 }
 
 div.blog:hover{
@@ -168,11 +171,11 @@ div.swirlyright {
 
 /* The contact page */
 
-div.contact { 
+div.contact {
 	width:96%;
 	height: 755px;
-	text-align:justify; 
-	float:right; 
+	text-align:justify;
+	float:right;
 	margin: 0 2% 2% 2%;
 	z-index: 1;
 }
@@ -229,16 +232,16 @@ img.inspire {
 	margin: 10px 10px 10px 10px;
 }
 
-.centre { 
-	text-align:center;	
+.centre {
+	text-align:center;
 }
 
-.link { 
+.link {
 	color: white;
 	font-weight: bold;
 }
 
-.persuade { 
+.persuade {
 	font-size: 35px;
 	font-weight: bold;
 	text-transform: uppercase;
@@ -258,34 +261,34 @@ img.inspire {
 
 /* Image slideshow on home page */
 
-.fadein { 
-	position:relative; 
-	height:332px; 
-	width:500px; 
+.fadein {
+	position:relative;
+	height:332px;
+	width:500px;
 }
-.fadein img { 
-	position:absolute; 
+.fadein img {
+	position:absolute;
 }
 
 /* Accordion on blog page */
 
-.toggler { 
-	width: 500px; 
-	height: 200px; 
-	position: relative; 
+.toggler {
+	width: 500px;
+	height: 200px;
+	position: relative;
 }
 
-#button { 
-	padding: .5em 1em; 
-	text-decoration: none; 
+#button {
+	padding: .5em 1em;
+	text-decoration: none;
 }
 
-#effect { 
-	width: 240px; 
-	height: 135px; 
-	padding: 0.4em; 
-	position: relative; 
-	background: #fff; 
+#effect {
+	width: 240px;
+	height: 135px;
+	padding: 0.4em;
+	position: relative;
+	background: #fff;
 }
 
 /* Image slider on blog page */
@@ -309,8 +312,8 @@ ul#accordion-slider li{
 
 /* Contact form setup */
 
-ul { 
-	list-style: none; 
+ul {
+	list-style: none;
 }
 
 form {
@@ -336,38 +339,38 @@ form textarea {
 	width: 500px;
 	height: 400px;
 	margin: 0 auto;
-	padding: 0px;    
+	padding: 0px;
 	position: relative;
 	border: 1px solid #ddd;
 	background-color: #222222;
-}    
+}
 
-/* Button settings taken from 
+/* Button settings taken from
 
-http://www.red-team-design.com/html5-css3-envelope-contact-form 
+http://www.red-team-design.com/html5-css3-envelope-contact-form
 
 Modified slightly to suit site design */
 
 #form-wrapper .button
 {
 	margin: 10px 0 0 0;
-	padding: 7px 15px;  
+	padding: 7px 15px;
 	color: #fff;
 	font: bold 13px Tahoma, Verdana, Arial;
 	text-transform: uppercase;
 	overflow: visible; /* IE6/7 fix */
-    	border: 0;  
+    	border: 0;
     	background-color: #7089b3;
     	background-image: -moz-linear-gradient(#a5b8da, #7089b3);
-    	background-image: -webkit-gradient(linear, left top, left bottom, from(#a5b8da), to(#7089b3));    
+    	background-image: -webkit-gradient(linear, left top, left bottom, from(#a5b8da), to(#7089b3));
     	background-image: -webkit-linear-gradient(#a5b8da, #7089b3);
     	background-image: -o-linear-gradient(#a5b8da, #7089b3);
     	background-image: -ms-linear-gradient(#a5b8da, #7089b3);
-    	background-image: linear-gradient(#a5b8da, #7089b3); 
+    	background-image: linear-gradient(#a5b8da, #7089b3);
     	-moz-border-radius: 3px;
     	-webkit-border-radius: 3px;
     	border-radius: 3px;
-    	text-shadow: 0 1px 0 rgba(0,0,0,.3);   
+    	text-shadow: 0 1px 0 rgba(0,0,0,.3);
     	-moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
     	-webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
     	box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5), 0 3px 0 rgba(0, 0, 0, 0.7);
@@ -377,20 +380,23 @@ Modified slightly to suit site design */
 {
 	background-color: #a5b8da;
 	background-image: -moz-linear-gradient(#7089b3, #a5b8da);
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#7089b3), to(#a5b8da));      
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#7089b3), to(#a5b8da));
 	background-image: -webkit-linear-gradient(#7089b3, #a5b8da);
 	background-image: -o-linear-gradient(#7089b3, #a5b8da);
 	background-image: -ms-linear-gradient(#7089b3, #a5b8da);
-	background-image: linear-gradient(#7089b3, #a5b8da); 
+	background-image: linear-gradient(#7089b3, #a5b8da);
 }
 
 #form-wrapper .button:active
 {
 	background: #64799e;
 	position: relative;
-	top: 2px;  
+	top: 2px;
 	-moz-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
 	-webkit-box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
-	box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset; 
+	box-shadow: 0 0 3px rgba(0, 0, 0, 0.7) inset;
 }
 
+#myCanvas{
+    background:black;
+}
