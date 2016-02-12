@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <title>Big in Lights</title>
+    <link rel="icon" type="image/jpg" href="images/bigIcon.jpg"/>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+  </head>
+  <body>
+
+    <!-- Top nav bar -->
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container">
+        <!-- Logo image -->
+        <div id="header" class="navbar-header">
+          <a href="/" class="navbar-brand">
+            <img id="bilLogo" src="images/siteLogo.jpg" alt="Big in Lights" class="col-xs-12 col-sm-8 col-sm-offset-2 col-lg-6 col-lg-offset-3">
+          </a>
+        </div>
+
+        <!-- Nav toggle button for mobile devices -->
+        <button type="button"
+                class="navbar-toggle"
+                data-toggle="collapse"
+                data-target=".navbar-collapse">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+
+        <!-- Navigation buttons -->
+        <ul id="navButtons" style="width:100%;"class="nav navbar-nav collapse navbar-collapse">
+          <li class="navItem"><a id="newsNav" href="">News</a></li>
+          <li class="navItem"><a id="bioNav" href="/">Bio</a></li>
+          <li class="navItem"><a id="musicNav" href="/">Music</a></li>
+          <li class="navItem"><a id="videoNav" href="/">Video</a></li>
+          <li class="navItem"><a id="showsNav" href="/">Shows</a></li>
+        </ul>
+      </div>
+      <hr class="col-xs-12"/>
+    </div>
+
+    <!-- NEWS SECTION -->
+    <div class="container">
+      <div class="row">
+        <p id="news" class="centre col-xs-12 col-md-8 col-md-offset-2">
+          <a class="twitter-timeline" href="https://twitter.com/biginlights"
+          data-widget-id="520638941951582208">Tweets by @biginlights</a>
+
+          <!-- Twitter embed script -->
+          <script>
+            !function(d,s,id){
+              var js,fjs=d.getElementsByTagName(s)[0],
+              p=/^http:/.test(d.location)?'http':'https';
+              if(!d.getElementById(id)) {
+                js=d.createElement(s);
+                js.id=id;
+                js.src=p+"://platform.twitter.com/widgets.js";
+                fjs.parentNode.insertBefore(js,fjs);
+              }
+            }(document,"script","twitter-wjs");
+          </script>
+        </p>
+      </div>
+
+      <!-- BIO SECTION -->
+      <div class="row">
+        <h1 id="bio" class="text-center customFont">The Band</h1>
+        <div>
+          <p class="text-center customFont col-xs-12 col-md-8 col-md-offset-2" style="font-size:16px">
+            Amanda Hug n Kiss<br/>
+            Brock Freeway<br/>
+            Devon Heartbeat<br/>
+            DJ Chrissy Hotpants</br>
+            Papa Goldlove</br>
+          </p>
+
+          <p class="text-center customFont col-xs-12 col-md-8 col-md-offset-2">
+          <span style="font-weight:bold;font-size:16px;">Big in Lights - an electro powerhouse hailing from Bristol - combine powerful vocals
+          with compelling synthesizers, melodic sax riffs and killer bass lines.</span>
+          Comprising of vocalist Amanda Hug n Kiss, vocalist and guitarist Brock Freeway,
+          saxophonist Devon Heartbeat, bassist Papa Goldlove and DJ Chrissy Hotpants,
+          Big in Lights distil a wide range of musical influences ranging from soul, jazz
+          and blues to hip hop, funk and disco.
+          Described by BBC Introducing as 'like somebody has cryogenically frozen Quincy
+          Jones and then forced him to mate with Prince in the future' these guys are ones to watch.
+          </p>
+          <img src="images/theBand.jpg" alt="Band photo" width="100%" class="col-xs-12 col-md-8 col-md-offset-2 bandPhoto">
+          <img src="images/theBand2.jpg" alt="Band photo" width="100%" class="col-xs-12 col-md-8 col-md-offset-2 bandPhoto">
+          <img src="images/theBand3.jpg" alt="Band photo" width="100%" class="col-xs-12 col-md-8 col-md-offset-2 bandPhoto">
+        </div>
+      </div>
+
+      <!-- MUSIC SECITON -->
+      <div class="row ">
+        <div class="col-xs-12 col-md-10 col-md-offset-1">
+          <h1 id="music" class="text-center customFont">Tracks</h1>
+          <iframe width="100%" height="475" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245093887&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+          <iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245096245&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+          <iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/245098528&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+          <iframe width="100%" height="150" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/189649835&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true"></iframe>
+        </div>
+      </div>
+
+      <!-- VIDEO SECTION -->
+      <div class="row">
+        <div id="video" class="col-xs-12 col-md-10 col-md-offset-1">
+          <p class="col-xs-12 col-md-8 col-md-offset-2 centre">
+
+            <!-- Youtube embed -->
+            <iframe width="560" height="315"
+            src="https://www.youtube.com/embed/M2U_K5oluKs"
+            frameborder="0"
+            allowfullscreen></iframe>
+          </p>
+        </div>
+      </div>
+
+      <!-- SHOWS SECTION -->
+      <div class="row">
+        <h1 id="shows" class="text-center customFont">Shows</h1>
+        <div>
+          <p class="centre customFont" style="font-size:16px">
+            <strong>BBC Radio 6 Fringe Festival</strong><br>
+            The Full Moon &amp; Attic Bar, Bristol, UK<br>
+            13th February 2016
+          </p>
+
+          <!-- Copy and patse the below to add gigs -->
+          <!--
+
+          <p class="centre customFont" style="font-size:16px">
+            <strong>
+              THIS IS BOLD - replace this with venue Name
+            </strong><br>
+            venue details - Adress, times whatever<br>
+            Date
+          </p>
+
+          -->
+
+        </div>
+      </div>
+
+    </div>
+
+    <!-- Footer - social networking links -->
+    <hr class="footer col-xs-12"/>
+    <div class="footer col-xs-12">
+      <p class="centre"/>
+      <a href="https://www.facebook.com/BiginLights">
+        <img src="./Images/facebook.gif" height="40px" alt="facebook link"/>
+      </a>
+      <a href="https://twitter.com/biginlights">
+        <img src="./Images/twitter.gif" height="40px" alt="twitter link"/>
+      </a>
+      <!-- <a href="https://twitter.com/biginlights">
+        <img src="./Images/tumblr.gif" height="40px" alt="tumblr link"/>
+      </a> -->
+      <a href="http://www.yooying.com/biginlights">
+        <img src="./Images/instagram.gif" height="40px" alt="instagram link"/>
+      </a>
+
+      <p class="centre customFont">Website by <a href="https://twitter.com/cashtotalszero">
+      <img src="./Images/ctzlogo.jpg" height="20"alt="cashtotalzero link"/></a></p>
+    </div>
+
+    <script src="http://code.jquery.com/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
