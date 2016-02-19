@@ -1,5 +1,11 @@
 "use strict";
 
+// Retina display fix
+var scale = 1 / (window.devicePixelRatio || 1);
+var content = 'width=device-width, initial-scale=' + scale + ', minimum-scale=' + scale;
+
+document.querySelector('meta[name="viewport"]').setAttribute('content', content);
+
 var navOffset = 0;
 
 function adjustNavPos() {
